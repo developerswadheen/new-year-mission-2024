@@ -1,25 +1,24 @@
 /* shared styles */
-body {
-  /* font-family: "Lato", sans-serif;
-  font-family: "Open Sans", sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
 }
 /* shared styles */
 
 /* header section styles */
 .banner-section {
   max-width: 1140px;
-  margin: 0 auto;
-  min-height: 100%;
+  margin: 40px auto 0;
+  border-radius: 16px;
   background-image: url("../resources/Banner\ Image.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  border-radius: 16px;
 }
 .banner-content {
-  padding: 94px 240px;
-  text-align: center;
+  padding: 150px 240px;
   border-radius: 16px;
+  text-align: center;
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
 }
 .banner-intro {
@@ -38,7 +37,203 @@ body {
 }
 /* header section styles */
 
+/* main section styles */
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* category section styles */
+
+.category-container {
+  margin-top: 120px;
+  text-align: center;
+}
+.category-container > h1 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 80px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.category-deal {
+  color: #f00;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.category-title {
+  color: #070211;
+  font-family: Inter;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+/* category section styles */
+
+/* midnight party styles */
+.midnight-party {
+  margin-top: 120px;
+  background-image: url(../resources/Vectorrr.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 16px;
+}
+.midnight-party-container {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  padding: 50px 120px;
+  gap: 10px;
+  border-radius: 16px;
+}
+.midnight-party-content {
+  width: 500px;
+  margin-top: 40px;
+}
+.midnight-party-container > img {
+  width: 250px;
+}
+.midnight-party-title {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.midnight-party-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* midnight party styles */
+
+/* party-location styles */
+.party-location {
+  margin-top: 120px;
+}
+.party-location-container {
+  padding: 80px 250px;
+  text-align: center;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  border-radius: 16px;
+}
+.party-place {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+  margin: 0;
+}
+.party-place > span {
+  color: #f00;
+}
+.party-date {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+  margin: 0;
+}
+.party-date > span {
+  color: #f00;
+}
+.party-time {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+  margin: 0;
+}
+.party-time > span {
+  color: #f00;
+}
+/* party-location styles */
+
+/* coming soon offer styles */
+
+
+
+/* coming soon offer styles */
+
+/* subscribe section styles */
+.subscribe {
+  background-color: #faebd7;
+  padding: 70px 210px;
+  margin-top: 120px;
+  text-align: center;
+  border-radius: 16px;
+}
+.subscribe-title {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin: 20px 0;
+}
+.subscribe-description {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.subscribe-field > input{
+    padding: 8px 30px;
+}
+.subscribe-btn{
+    padding: 8px 20px;
+}
+
+/* subscribe section styles */
 
 /* main section styles */
 
-/* main section styles */
+/* footer section styles */
+footer {
+  background: #070211;
+  color: white;
+  padding: 120px 140px;
+  margin-top: 120px;
+}
+.footer-details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.contacts {
+  padding-right: 50px;
+}
+.adress {
+  width: 300px;
+}
+.footer-icons {
+  text-align: center;
+  margin: 20px 0;
+}
+.copyright-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+/* footer section styles */

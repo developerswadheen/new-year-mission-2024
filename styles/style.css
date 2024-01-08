@@ -170,7 +170,62 @@ main {
 
 /* coming soon offer styles */
 
-
+.coming-soon-container {
+  margin: 120px 0;
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+}
+.coming-soon-offer {
+  width: 500px;
+  margin-top: 80px;
+}
+.coming-soon-offer > h4 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+}
+.offer-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 10px;
+}
+.offer-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.coming-soon-pic {
+  border: 10px solid #f00;
+  border-radius: 100%;
+  padding: 20px;
+}
+.coming-soon-pic img {
+  width: 320px;
+  height: 320px;
+}
+.coming-soon-2024 {
+  width: 500px;
+  margin-top: 80px;
+}
+.coming-soon-2024 > h2 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+.coming-soon-2024-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-weight: 400;
+}
+.coming-soon-2024 > img{
+  margin-top: 20px;
+}
 
 /* coming soon offer styles */
 
@@ -197,11 +252,11 @@ main {
   font-weight: 400;
   margin-bottom: 20px;
 }
-.subscribe-field > input{
-    padding: 8px 30px;
+.subscribe-field > input {
+  padding: 8px 30px;
 }
-.subscribe-btn{
-    padding: 8px 20px;
+.subscribe-btn {
+  padding: 8px 20px;
 }
 
 /* subscribe section styles */

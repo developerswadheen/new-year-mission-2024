@@ -272,25 +272,22 @@ main {
 .image-box{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: end;
+  position: relative;
 }
 .discount-imgs > img{
   width: 100%;
 }
 .first-img{
   width: 450px;
-  position: relative;
-  top: 180px;
-  left: 50px;
+  position: absolute;
+  top: 50%;
+  left: 5%;
 }
 .second-img{
-  position: relative;
-  right: -9%;
+  position: absolute;
+  right: 24%;
   z-index: 1;
-}
-.third-img{
-  position: relative;
-  right: 4%;
 }
 /* discount offer styles */
 

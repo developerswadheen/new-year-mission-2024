@@ -237,6 +237,63 @@ main {
 
 /* coming soon offer styles */
 
+/* discount offer styles */
+
+.discount-offer {
+  margin: 150px 0;
+}
+.discount-offer-content {
+  padding: 0 40px;
+  text-align: center;
+}
+.discount-offer-content > h4 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+}
+.discount-offer-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.discount-offer-title > span {
+  color: #f00;
+}
+.discount-offer-description {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.image-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.discount-imgs > img{
+  width: 100%;
+}
+.first-img{
+  width: 450px;
+  position: relative;
+  top: 180px;
+  left: 50px;
+}
+.second-img{
+  position: relative;
+  right: -9%;
+  z-index: 1;
+}
+.third-img{
+  position: relative;
+  right: 4%;
+}
+/* discount offer styles */
+
 /* portfolio styles */
 .portfolio {
   margin: 120px 0;
@@ -336,7 +393,7 @@ footer {
 .contacts {
   padding-right: 50px;
 }
-.contacts > p > i{
+.contacts > p > i {
   margin-right: 3px;
   margin-bottom: 8px;
 }

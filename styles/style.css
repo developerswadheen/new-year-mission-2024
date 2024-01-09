@@ -3,6 +3,13 @@
   margin: 0;
   padding: 0;
 }
+.btn-primary {
+  padding: 16px 35px;
+  border-radius: 8px;
+  background: #f00;
+  border: 0;
+  color: white;
+}
 /* shared styles */
 
 /* header section styles */
@@ -109,6 +116,7 @@ main {
   font-family: Inter;
   font-size: 14px;
   font-weight: 400;
+  margin-bottom: 20px;
 }
 
 /* midnight party styles */
@@ -161,7 +169,7 @@ main {
   font-weight: 600;
   line-height: 56px;
   text-transform: capitalize;
-  margin: 0;
+  margin: 0 0 20px 0;
 }
 .party-time > span {
   color: #f00;
@@ -223,11 +231,49 @@ main {
   font-family: Inter;
   font-weight: 400;
 }
-.coming-soon-2024 > img{
+.coming-soon-2024 > img {
   margin-top: 20px;
 }
 
 /* coming soon offer styles */
+
+/* portfolio styles */
+.portfolio {
+  margin: 120px 0;
+}
+.portfolio-content {
+  width: 600px;
+  margin-bottom: 30px;
+}
+.portfolio-content > h4 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+}
+.portfolio-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin: 5px 0;
+}
+.portfolio-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-weight: 400;
+}
+.img-row > img {
+  width: 370px;
+}
+.img-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+/* portfolio styles */
 
 /* subscribe section styles */
 .subscribe {
@@ -239,7 +285,6 @@ main {
 }
 .subscribe-title {
   color: #070211;
-  text-align: center;
   font-family: Merriweather;
   font-size: 48px;
   font-weight: 900;
@@ -247,16 +292,29 @@ main {
 }
 .subscribe-description {
   color: rgba(7, 2, 17, 0.6);
-  text-align: center;
   font-family: Inter;
   font-weight: 400;
   margin-bottom: 20px;
 }
+.subscribe-field {
+  width: 575px;
+  margin-top: 20px;
+}
 .subscribe-field > input {
-  padding: 8px 30px;
+  padding: 12px 40px;
+  border: 0;
+  position: relative;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 .subscribe-btn {
-  padding: 8px 20px;
+  padding: 12px 40px;
+  border: 0;
+  position: absolute;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #ff0000;
+  color: white;
 }
 
 /* subscribe section styles */
@@ -278,7 +336,11 @@ footer {
 .contacts {
   padding-right: 50px;
 }
-.adress {
+.contacts > p > i{
+  margin-right: 3px;
+  margin-bottom: 8px;
+}
+.address {
   width: 300px;
 }
 .footer-icons {

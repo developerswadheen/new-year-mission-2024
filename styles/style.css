@@ -322,6 +322,11 @@ main {
 }
 .img-row > img {
   width: 370px;
+  opacity: 1;
+}
+.img-row > img:hover{
+  opacity: 0.4;
+  cursor: pointer;
 }
 .img-row {
   display: flex;
